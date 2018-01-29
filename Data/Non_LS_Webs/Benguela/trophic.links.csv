@@ -1,0 +1,204 @@
+"resource","consumer","diet.fraction"
+"Phytoplankton","Bacteria",98.8
+"Benthic filter feeders","Benthic carnivores",100
+"Phytoplankton","Microzooplankton",30.6
+"Bacteria","Microzooplankton",29.7
+"Microzooplankton","Microzooplankton",29.7
+"Phytoplankton","Mesozooplankton",45
+"Microzooplankton","Mesozooplankton",45
+"Phytoplankton","Macrozooplankton",60
+"Mesozooplankton","Macrozooplankton",40
+"Phytoplankton","Gelatinous zoolplankton",25
+"Bacteria","Gelatinous zoolplankton",25
+"Microzooplankton","Gelatinous zoolplankton",25
+"Mesozooplankton","Gelatinous zoolplankton",25
+"Phytoplankton","Anchovy",5
+"Microzooplankton","Anchovy",4
+"Mesozooplankton","Anchovy",57
+"Macrozooplankton","Anchovy",34
+"Phytoplankton","Pilchard",67
+"Mesozooplankton","Pilchard",30
+"Macrozooplankton","Pilchard",3
+"Mesozooplankton","Round herring",60
+"Macrozooplankton","Round herring",40
+"Mesozooplankton","Lightfish",40
+"Macrozooplankton","Lightfish",60
+"Mesozooplankton","Lanternfish",40
+"Macrozooplankton","Lanternfish",60
+"Phytoplankton","Goby",36
+"Microzooplankton","Goby",2
+"Mesozooplankton","Goby",43.5
+"Macrozooplankton","Goby",18.5
+"Benthic carnivores","Other pelagics",2
+"Mesozooplankton","Other pelagics",81
+"Macrozooplankton","Other pelagics",14
+"Gelatinous zoolplankton","Other pelagics",3
+"Benthic carnivores","Horse mackerel",0.5
+"Mesozooplankton","Horse mackerel",58
+"Macrozooplankton","Horse mackerel",41.3
+"Lanternfish","Horse mackerel",0.2
+"Benthic carnivores","Chub mackerel",2.2
+"Mesozooplankton","Chub mackerel",9
+"Macrozooplankton","Chub mackerel",54.6
+"Anchovy","Chub mackerel",3
+"Round herring","Chub mackerel",1.7
+"Lanternfish","Chub mackerel",29.5
+"Benthic carnivores","Other groundfish",34.3
+"Mesozooplankton","Other groundfish",15.8
+"Macrozooplankton","Other groundfish",9.9
+"Anchovy","Other groundfish",0.1
+"Round herring","Other groundfish",2.5
+"Lightfish","Other groundfish",2.1
+"Lanternfish","Other groundfish",2
+"Goby","Other groundfish",0.1
+"Other pelagics","Other groundfish",2.4
+"Other groundfish","Other groundfish",17.2
+"Hakes","Other groundfish",5.8
+"Squid","Other groundfish",7.9
+"Mesozooplankton","Hakes",11
+"Macrozooplankton","Hakes",11
+"Anchovy","Hakes",11
+"Pilchard","Hakes",6
+"Round herring","Hakes",6
+"Lightfish","Hakes",9
+"Lanternfish","Hakes",12
+"Goby","Hakes",8.5
+"Horse mackerel","Hakes",1
+"Chub mackerel","Hakes",1
+"Other groundfish","Hakes",7
+"Hakes","Hakes",15
+"Squid","Hakes",10
+"Benthic carnivores","Squid",2.2
+"Macrozooplankton","Squid",8.1
+"Anchovy","Squid",30
+"Pilchard","Squid",12
+"Round herring","Squid",10.7
+"Lightfish","Squid",13.9
+"Goby","Squid",21
+"Horse mackerel","Squid",1
+"Other groundfish","Squid",15.6
+"Hakes","Squid",5.3
+"Squid","Squid",1.2
+"Benthic carnivores","Tunas",22
+"Anchovy","Tunas",15
+"Pilchard","Tunas",15
+"Round herring","Tunas",7
+"Lightfish","Tunas",4
+"Lanternfish","Tunas",3
+"Goby","Tunas",15
+"Other pelagics","Tunas",4
+"Horse mackerel","Tunas",5
+"Chub mackerel","Tunas",5
+"Hakes","Tunas",5
+"Squid","Tunas",15
+"Benthic carnivores","Snoek",1.2
+"Macrozooplankton","Snoek",3
+"Anchovy","Snoek",58.6
+"Pilchard","Snoek",4.5
+"Round herring","Snoek",12.6
+"Lightfish","Snoek",2.5
+"Lanternfish","Snoek",2.6
+"Goby","Snoek",31.5
+"Horse mackerel","Snoek",1.4
+"Hakes","Snoek",13.2
+"Squid","Snoek",0.4
+"Benthic carnivores","Kob",8.8
+"Macrozooplankton","Kob",6.8
+"Anchovy","Kob",51
+"Pilchard","Kob",0.6
+"Goby","Kob",25.8
+"Horse mackerel","Kob",3.3
+"Chub mackerel","Kob",1.1
+"Other groundfish","Kob",13.7
+"Hakes","Kob",8.2
+"Squid","Kob",6.1
+"Kob","Kob",0.4
+"Macrozooplankton","Yellowtail",0.2
+"Anchovy","Yellowtail",1.9
+"Pilchard","Yellowtail",29.1
+"Round herring","Yellowtail",4.1
+"Goby","Yellowtail",15.5
+"Other pelagics","Yellowtail",12.1
+"Horse mackerel","Yellowtail",4.1
+"Chub mackerel","Yellowtail",5.9
+"Other groundfish","Yellowtail",13.9
+"Squid","Yellowtail",28.7
+"Benthic carnivores","Geelbek",1.2
+"Anchovy","Geelbek",25
+"Pilchard","Geelbek",25.2
+"Round herring","Geelbek",7.9
+"Goby","Geelbek",25.1
+"Other pelagics","Geelbek",1.9
+"Horse mackerel","Geelbek",20.9
+"Other groundfish","Geelbek",16.6
+"Hakes","Geelbek",0.1
+"Squid","Geelbek",1.2
+"Macrozooplankton","Whales and dolphins",6.6
+"Anchovy","Whales and dolphins",30.1
+"Pilchard","Whales and dolphins",7.4
+"Round herring","Whales and dolphins",1
+"Lanternfish","Whales and dolphins",4.3
+"Goby","Whales and dolphins",18.8
+"Other pelagics","Whales and dolphins",3.2
+"Horse mackerel","Whales and dolphins",26.8
+"Hakes","Whales and dolphins",4.4
+"Squid","Whales and dolphins",16.2
+"Benthic carnivores","Birds",0.6
+"Mesozooplankton","Birds",0.9
+"Macrozooplankton","Birds",9.6
+"Anchovy","Birds",36.4
+"Pilchard","Birds",8.4
+"Round herring","Birds",1.9
+"Lightfish","Birds",4.7
+"Lanternfish","Birds",5.6
+"Goby","Birds",22.4
+"Other pelagics","Birds",5.5
+"Horse mackerel","Birds",0.8
+"Chub mackerel","Birds",0.4
+"Other groundfish","Birds",0.7
+"Hakes","Birds",17.2
+"Squid","Birds",6.5
+"Snoek","Birds",0.2
+"Birds","Birds",0.2
+"Seals","Birds",0.4
+"Benthic carnivores","Seals",9.6
+"Anchovy","Seals",30.1
+"Pilchard","Seals",3.2
+"Round herring","Seals",0.1
+"Lightfish","Seals",0.3
+"Lanternfish","Seals",0.3
+"Goby","Seals",16.6
+"Other pelagics","Seals",0.4
+"Horse mackerel","Seals",18
+"Chub mackerel","Seals",0.6
+"Other groundfish","Seals",4.4
+"Hakes","Seals",6
+"Squid","Seals",15.4
+"Snoek","Seals",10.2
+"Birds","Seals",0.6
+"Sharks","Seals",0.8
+"Benthic carnivores","Sharks",8
+"Mesozooplankton","Sharks",4
+"Macrozooplankton","Sharks",4
+"Gelatinous zoolplankton","Sharks",4
+"Anchovy","Sharks",4
+"Pilchard","Sharks",4
+"Round herring","Sharks",4
+"Lightfish","Sharks",4
+"Lanternfish","Sharks",4
+"Goby","Sharks",4
+"Other pelagics","Sharks",4
+"Horse mackerel","Sharks",4
+"Chub mackerel","Sharks",4
+"Other groundfish","Sharks",4
+"Hakes","Sharks",4
+"Squid","Sharks",4
+"Tunas","Sharks",4
+"Snoek","Sharks",4
+"Kob","Sharks",4
+"Yellowtail","Sharks",4
+"Geelbek","Sharks",4
+"Whales and dolphins","Sharks",4
+"Birds","Sharks",4
+"Seals","Sharks",4
+"Sharks","Sharks",4

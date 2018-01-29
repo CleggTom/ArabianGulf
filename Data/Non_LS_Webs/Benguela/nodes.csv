@@ -1,0 +1,30 @@
+"node","category","M"
+"Phytoplankton","producer",1e-07
+"Benthic filter feeders","invertebrate",0.01
+"Bacteria","invertebrate",1e-11
+"Benthic carnivores","invertebrate",0.01
+"Microzooplankton","invertebrate",1e-07
+"Mesozooplankton","invertebrate",1e-05
+"Macrozooplankton","invertebrate",0.001
+"Gelatinous zoolplankton","invertebrate",0.1
+"Anchovy","vert.ecto",0.0115
+"Pilchard","vert.ecto",0.28
+"Round herring","vert.ecto",0.2152
+"Lightfish","vert.ecto",0.0048
+"Lanternfish","vert.ecto",0.0069
+"Goby","vert.ecto",0.0186
+"Other pelagics","vert.ecto",2.55485
+"Horse mackerel","vert.ecto",5.1049
+"Chub mackerel","vert.ecto",3.2595
+"Other groundfish","vert.ecto",13.127
+"Hakes","vert.ecto",22.9945
+"Squid","invertebrate",0.04
+"Tunas","vert.ecto",909
+"Snoek","vert.ecto",13.0121
+"Kob","vert.ecto",68
+"Yellowtail","vert.ecto",82.0403
+"Geelbek","vert.ecto",26.12738
+"Whales and dolphins","vert.endo",82
+"Birds","vert.endo",2.287
+"Seals","vert.endo",136
+"Sharks","vert.ecto",1.5
