@@ -1,0 +1,114 @@
+"node","taxa.ID","nodeID","Lifestyle","name","n.lifestages","n.LS"
+"Species 1","Species 1",1,"non-living","detritus",1,0
+"Species 2","Species 2",2,"non-living","carrion",1,0
+"Species 3","Species 3",3,"free-living","phytoplankton",1,0
+"Species 4","Species 4",4,"free-living","benthic microalgae/periphyton",1,0
+"Species 5","Species 5",5,"free-living","vascular plants",1,0
+"Species 6","Species 6",6,"free-living","zooplankton",1,0
+"Species 7","Species 7",7,"free-living","meiofauna",1,0
+"Species 8","Species 8",8,"free-living","bacteria",1,0
+"Species 9","Species 9",9,"free-living","Dero sp.",1,0
+"Species 10","Species 10",10,"free-living","Tubificidae",1,0
+"Species 11","Species 11",11,"free-living","Chaetogaster sp.",1,0
+"Species 12","Species 12",12,"free-living","Erpobdella sp.",1,0
+"Species 13","Species 13",13,"free-living","Physa sp.",1,0
+"Species 14","Species 14",14,"free-living","Helisoma sp.",1,0
+"Species 15","Species 15",15,"free-living","Hyalella sp.",1,0
+"Species 16","Species 16",16,"free-living","Macrocyclops sp.",1,0
+"Species 17","Species 17",17,"free-living","diaptomidae",1,0
+"Species 18","Species 18",18,"free-living","Simocephalus sp.",1,0
+"Species 19","Species 19",19,"free-living","Cyzicus californicus",1,0
+"Species 20","Species 20",20,"free-living","Callibaetis sp.",2,1
+"Species 21","Species 20",21,"free-living","Callibaetis sp.",2,1
+"Species 22","Species 21",22,"free-living","Haliplus sp.",2,1
+"Species 23","Species 21",23,"free-living","Haliplus sp.",2,1
+"Species 24","Species 22",24,"free-living","Hydrophilus sp.",2,1
+"Species 25","Species 22",25,"free-living","Hydrophilus sp.",2,1
+"Species 26","Species 23",26,"free-living","Tropisternus sp.",2,1
+"Species 27","Species 23",27,"free-living","Tropisternus sp.",2,1
+"Species 28","Species 24",28,"free-living","Notonecta sp.",2,1
+"Species 29","Species 24",29,"free-living","Notonecta sp.",2,1
+"Species 30","Species 25",30,"free-living","gerridae",2,1
+"Species 31","Species 25",31,"free-living","gerridae",2,1
+"Species 32","Species 26",32,"free-living","Hesperocorixa sp.",2,1
+"Species 33","Species 26",33,"free-living","Hesperocorixa sp.",2,1
+"Species 34","Species 27",34,"free-living","Lethocerus americanus",2,1
+"Species 35","Species 27",35,"free-living","Lethocerus americanus",2,1
+"Species 36","Species 28",36,"free-living","Belostoma sp.",2,1
+"Species 37","Species 28",37,"free-living","Belostoma sp.",2,1
+"Species 38","Species 29",38,"free-living","chironomidae",3,1
+"Species 39","Species 29",39,"free-living","chironomidae",3,1
+"Species 40","Species 29",40,"free-living","chironomidae",3,1
+"Species 41","Species 30",41,"free-living","ceratopogonidae",3,1
+"Species 42","Species 30",42,"free-living","ceratopogonidae",3,1
+"Species 43","Species 30",43,"free-living","ceratopogonidae",3,1
+"Species 44","Species 31",44,"free-living","ephydridae",3,1
+"Species 45","Species 31",45,"free-living","ephydridae",3,1
+"Species 46","Species 31",46,"free-living","ephydridae",3,1
+"Species 47","Species 32",47,"free-living","Tramea sp.",2,1
+"Species 48","Species 32",48,"free-living","Tramea sp.",2,1
+"Species 49","Species 33",49,"free-living","Coenagrion sp.",2,1
+"Species 50","Species 33",50,"free-living","Coenagrion sp.",2,1
+"Species 51","Species 34",51,"free-living","Lestes sp.",2,1
+"Species 52","Species 34",52,"free-living","Lestes sp.",2,1
+"Species 53","Species 35",53,"free-living","Anax junius",2,1
+"Species 54","Species 35",54,"free-living","Anax junius",2,1
+"Species 55","Species 36",55,"free-living","Taricha torosa",2,1
+"Species 56","Species 36",56,"free-living","Taricha torosa",2,1
+"Species 57","Species 37",57,"free-living","Anaxyrus boreas",2,1
+"Species 58","Species 37",58,"free-living","Anaxyrus boreas",2,1
+"Species 59","Species 38",59,"free-living","Pseudacris regilla",2,1
+"Species 60","Species 38",60,"free-living","Pseudacris regilla",2,1
+"Species 61","Species 39",61,"free-living","Rana draytonii",2,1
+"Species 62","Species 39",62,"free-living","Rana draytonii",2,1
+"Species 63","Species 40",63,"free-living","Thamnophis atratus",1,0
+"Species 64","Species 41",64,"free-living","Tachycineta bicolor",1,0
+"Species 65","Species 42",65,"free-living","Hirundo rustica",1,0
+"Species 66","Species 43",66,"free-living","Agelaius phoeniceus",1,0
+"Species 67","Species 44",67,"free-living","Fulica americana",1,0
+"Species 68","Species 45",68,"free-living","Buteo jamaicensis",1,0
+"Species 69","Species 46",69,"free-living","Ardea herodias",1,0
+"Species 70","Species 47",70,"free-living","Spermophilus beecheyi",1,0
+"Species 71","Species 48",71,"free-living","Canis latrans",1,0
+"Species 72","Species 49",72,"infectious","Arrenurus sp.",1,0
+"Species 73","Species 50",73,"infectious","Opalina sp.",2,1
+"Species 74","Species 50",74,"infectious","Opalina sp.",2,1
+"Species 75","Species 51",75,"infectious","Nyctotherus sp.",2,1
+"Species 76","Species 51",76,"infectious","Nyctotherus sp.",2,1
+"Species 77","Species 52",77,"infectious","Gregarinidae",2,1
+"Species 78","Species 52",78,"infectious","Gregarinidae",2,1
+"Species 79","Species 53",79,"infectious","Batrachochytrium dendrobatidis",2,1
+"Species 80","Species 53",80,"infectious","Batrachochytrium dendrobatidis",2,1
+"Species 81","Species 54",81,"infectious","Nematode",1,0
+"Species 82","Species 55",82,"infectious","Daubaylia sp.",1,0
+"Species 83","Species 56",83,"infectious","Ribeiroia ondatrae",4,1
+"Species 84","Species 56",84,"infectious","Ribeiroia ondatrae",4,1
+"Species 85","Species 56",85,"infectious","Ribeiroia ondatrae",4,1
+"Species 86","Species 56",86,"infectious","Ribeiroia ondatrae",4,1
+"Species 87","Species 57",87,"infectious","Megalodiscus sp.",4,1
+"Species 88","Species 57",88,"infectious","Megalodiscus sp.",4,1
+"Species 89","Species 57",89,"infectious","Megalodiscus sp.",4,1
+"Species 90","Species 57",90,"infectious","Megalodiscus sp.",4,1
+"Species 91","Species 58",91,"infectious","Echinostoma trivolvis",4,1
+"Species 92","Species 58",92,"infectious","Echinostoma trivolvis",4,1
+"Species 93","Species 58",93,"infectious","Echinostoma trivolvis",4,1
+"Species 94","Species 58",94,"infectious","Echinostoma trivolvis",4,1
+"Species 95","Species 59",95,"infectious","Echinostoma sp.",4,1
+"Species 96","Species 59",96,"infectious","Echinostoma sp.",4,1
+"Species 97","Species 59",97,"infectious","Echinostoma sp.",4,1
+"Species 98","Species 59",98,"infectious","Echinostoma sp.",4,1
+"Species 99","Species 60",99,"infectious","Halipegus sp.",4,1
+"Species 100","Species 60",100,"infectious","Halipegus sp.",4,1
+"Species 101","Species 60",101,"infectious","Halipegus sp.",4,1
+"Species 102","Species 60",102,"infectious","Halipegus sp.",4,1
+"Species 103","Species 61",103,"infectious","Alaria sp.",4,1
+"Species 104","Species 61",104,"infectious","Alaria sp.",4,1
+"Species 105","Species 61",105,"infectious","Alaria sp.",4,1
+"Species 106","Species 61",106,"infectious","Alaria sp.",4,1
+"Species 107","Species 62",107,"infectious","Cephalogonimus americanus",4,1
+"Species 108","Species 62",108,"infectious","Cephalogonimus americanus",4,1
+"Species 109","Species 62",109,"infectious","Cephalogonimus americanus",4,1
+"Species 110","Species 62",110,"infectious","Cephalogonimus americanus",4,1
+"Species 111","Species 63",111,"infectious","Pseudocorynosoma constrictum",3,1
+"Species 112","Species 63",112,"infectious","Pseudocorynosoma constrictum",3,1
+"Species 113","Species 63",113,"infectious","Pseudocorynosoma constrictum",3,1

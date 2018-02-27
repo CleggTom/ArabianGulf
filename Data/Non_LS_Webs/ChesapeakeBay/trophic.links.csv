@@ -1,0 +1,74 @@
+"resource","consumer","biomass.flow"
+"Free bacteria in water column","Heterotrophic microflagellates",88721
+"Phytoplankton","Microzooplankton",31715
+"Bacteria attached to suspended particles","Microzooplankton",870.9
+"Heterotrophic microflagellates","Microzooplankton",31638
+"Phytoplankton","Zooplankton",37149
+"Bacteria attached to suspended particles","Zooplankton",1685.4
+"Microzooplankton","Zooplankton",7555
+"Bacteria attached to suspended particles","Ctenophores",131.5
+"Microzooplankton","Ctenophores",3437
+"Zooplankton","Ctenophores",6878
+"Zooplankton","Chrysaora quinquecirrha",1159
+"Ctenophores","Chrysaora quinquecirrha",552
+"Phytoplankton","Other suspension feeders",4199
+"Bacteria attached to suspended particles","Other suspension feeders",105.2
+"Microzooplankton","Other suspension feeders",290
+"Phytoplankton","Mya",2275
+"Bacteria attached to suspended particles","Mya",56.9
+"Microzooplankton","Mya",156
+"Phytoplankton","Crassostrea virginica",4415
+"Bacteria attached to suspended particles","Crassostrea virginica",110.6
+"Microzooplankton","Crassostrea virginica",304
+"Sediment bacteria","Other polychaetes",160831
+"Sediment bacteria","Nereis",25062.2
+"Sediment bacteria","Macoma spp",57334.5
+"Sediment bacteria","Meiofauna",35961.7
+"Benthic algae","Meiofauna",18086
+"Sediment bacteria","Crustacean deposit feeders",14075.2
+"Sediment bacteria","Callinectes sapidus",1690.3
+"Other suspension feeders","Callinectes sapidus",538
+"Mya","Callinectes sapidus",215
+"Nereis","Callinectes sapidus",352
+"Macoma spp","Callinectes sapidus",4538
+"Crustacean deposit feeders","Callinectes sapidus",967
+"Callinectes sapidus","Callinectes sapidus",293
+"Zooplankton","Fish larvae",4.9
+"Zooplankton","Clupeidae",25.7
+"Phytoplankton","Anchoa mitchilli",277
+"Bacteria attached to suspended particles","Anchoa mitchilli",12.3
+"Zooplankton","Anchoa mitchilli",1534
+"Phytoplankton","Brevoortia tyrannus",20.8
+"Bacteria attached to suspended particles","Brevoortia tyrannus",4.2
+"Zooplankton","Brevoortia tyrannus",248.2
+"Zooplankton","Alosa sapidissima",5.2
+"Other polychaetes","Micropogonius undulatus",7.2
+"Nereis","Micropogonius undulatus",2.1
+"Crustacean deposit feeders","Micropogonius undulatus",0.3
+"Mya","Trinectes maculatus",9
+"Other polychaetes","Trinectes maculatus",59
+"Nereis","Trinectes maculatus",14
+"Crustacean deposit feeders","Trinectes maculatus",14
+"Other polychaetes","Leiostomus xanthurus",314
+"Nereis","Leiostomus xanthurus",97
+"Macoma spp","Leiostomus xanthurus",55
+"Crustacean deposit feeders","Leiostomus xanthurus",2
+"Anchoa mitchilli","Leiostomus xanthurus",14.5
+"Other polychaetes","Morone americana",76
+"Nereis","Morone americana",59
+"Anchoa mitchilli","Morone americana",14.6
+"Other polychaetes","Arius felis",152.8
+"Nereis","Arius felis",22.6
+"Crustacean deposit feeders","Arius felis",43.1
+"Anchoa mitchilli","Pomatomus saltatrix",2.7
+"Brevoortia tyrannus","Pomatomus saltatrix",2.6
+"Leiostomus xanthurus","Pomatomus saltatrix",10.2
+"Anchoa mitchilli","Cynoscion aregalis",91.4
+"Crustacean deposit feeders","Paralichthys dentatus",0.9
+"Anchoa mitchilli","Paralichthys dentatus",12.3
+"Brevoortia tyrannus","Paralichthys dentatus",8
+"Cynoscion aregalis","Paralichthys dentatus",4.3
+"Callinectes sapidus","Morone saxatilis",2.4
+"Clupeidae","Morone saxatilis",0.2
+"Anchoa mitchilli","Morone saxatilis",17.2
+"Brevoortia tyrannus","Morone saxatilis",10.6
