@@ -16,7 +16,6 @@ set.seed(1)
 library(cheddar)
 library(tidyverse)
 library(reshape2)
-library(gridExtra)
 
 #Loading LS webs
 LS_paths <- paste0("../Data/LS_Webs/",list.files("../Data/LS_Webs/"))
@@ -32,7 +31,7 @@ web_stats <- data.frame(title  = sapply(LS_webs, function(x) x$properties$title)
                         S = sapply(LS_webs, NumberOfNodes),
                         L = sapply(LS_webs, NumberOfTrophicLinks),
                         basal = sapply(LS_webs, FractionBasalNodes),
-                        inte = sapply(LS_webs, FractionIntermediateNodes),
+                        int = sapply(LS_webs, FractionIntermediateNodes),
                         top   = sapply(LS_webs, FractionTopLevelNodes),
                         gen   = sapply(LS_webs, function(x) mean(TrophicGenerality(x))),
                         gensd = sapply(LS_webs, function(x) sd(NormalisedTrophicGenerality(x))),
@@ -76,7 +75,7 @@ Stats_matrix <- function(mat){
   return(c(S,L,basal,int,top,gen,gensd,vun,vunsd))
 }
 
-# Get the web stats
+# Get the niche web stats
 stats <- vector(length = length(LS_webs),mode = "list")
 for(n in 1:length(LS_webs)){
   print(web_stats$title[n])
@@ -92,6 +91,13 @@ for(n in 1:length(LS_webs)){
 
 stats <- do.call("rbind", stats) %>% melt()
 web_stats <- melt(web_stats)
+
+# plot
+ggplot(stats,aes(x=title,y=value,colour=title))+
+  geom_violin()+
+  facet_wrap(~variable,scales = 'free')+
+  geom_point(data = web_stats)
+
 StrucStats <- stats %>% 
   group_by(title,variable) %>%
   dplyr::summarise(model.median = median(value),
@@ -112,7 +118,16 @@ for(i in 1:nrow(StrucStats)){
   StrucStats$ME[i] <- abs(a)
 }
 
+#Rm Nodes and Links
+StrucStats <- StrucStats %>% filter(variable != "S" , variable != "L")
+
 ggplot(StrucStats,aes(x=title,y=ME,colour = title))+
   geom_point()+
   facet_grid(variable~LS,scales = 'free')+
   geom_hline(yintercept=1)
+
+StrucStats$sig <- StrucStats$ME > 1
+
+ggplot(StrucStats,aes(fill=sig,x=variable,y = title))+
+  geom_tile()
+
