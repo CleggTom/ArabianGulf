@@ -1,6 +1,6 @@
 ##############
 # Analysis of Life History Webs
-# Script 2) Structural Statistics and Niche model analysis for: 
+# Script 2) Structural statistics and niche model analysis for:
 # Clegg, Ali and Beckerman 2018: The Impact of Intraspecific Variation on Food Web Structure
 ##############
 # Doi:
@@ -23,6 +23,9 @@ LS_webs <- vector("list", length(LS_paths))
 for(i in 1:length(LS_paths)){
   LS_webs[[i]] <- LoadCommunity(LS_paths[i])
 }
+
+# set PDF
+pdf("../Figs/StructurePlots.pdf")
 ##############
 #get web statistics
 
@@ -63,7 +66,7 @@ niche_model <- function(S,C){
 Stats_matrix <- function(mat){
   S = nrow(mat)
   L = sum(mat)
-  
+
   basal = sum(colSums(mat) == 0)/S
   top   = sum(colSums(t(mat)) == 0)/S
   int   = 1 - basal - top
@@ -71,7 +74,7 @@ Stats_matrix <- function(mat){
   vun   = mean(rowSums(mat))
   gensd = sd(colSums(mat)/(L/S))
   vunsd = sd(rowSums(mat)/(L/S))
-  
+
   return(c(S,L,basal,int,top,gen,gensd,vun,vunsd))
 }
 
@@ -98,18 +101,18 @@ ggplot(stats,aes(x=title,y=value,colour=title))+
   facet_wrap(~variable,scales = 'free')+
   geom_point(data = web_stats)
 
-StrucStats <- stats %>% 
+StrucStats <- stats %>%
   group_by(title,variable) %>%
   dplyr::summarise(model.median = median(value),
                    model.percent.95 = quantile(value,0.95),
                    model.percent.05 = quantile(value,0.05)) %>%
-  merge(.,web_stats,by = c('variable','title'))     
+  merge(.,web_stats,by = c('variable','title'))
 
 #calculate ME
 StrucStats$ME <- NA
 #get the MEs
 for(i in 1:nrow(StrucStats)){
-  StrucStats$ME[i] <- (StrucStats$model.median[i] - StrucStats$value[i]) 
+  StrucStats$ME[i] <- (StrucStats$model.median[i] - StrucStats$value[i])
   if(StrucStats$ME[i] < 0){
     a <- StrucStats$ME[i] / (StrucStats$model.median[i] - StrucStats$model.percent.95[i])
   } else {
@@ -130,4 +133,3 @@ StrucStats$sig <- StrucStats$ME > 1
 
 ggplot(StrucStats,aes(fill=sig,x=variable,y = title))+
   geom_tile()
-

@@ -1,6 +1,6 @@
 ##############
 # Analysis of Life History Webs
-# Script 1) Diversity-Complexity Relationships and overlap for: 
+# Script 1) Diversity-complexity relationships and overlap for: 
 # Clegg, Ali and Beckerman 2018: The Impact of Intraspecific Variation on Food Web Structure
 ##############
 # Doi:
@@ -64,13 +64,13 @@ NvL <- ggplot(NL_all,aes(x = (nodes), y = (links), colour = web))+
         geom_point(size = 3)+
         geom_line(data = NL_all[NL_all$web != "other",])+
         scale_color_manual(values = cbPalette)+labs(x = "Log (nodes)", y = "Log (links)")+
-        theme_classic() + 
+        theme_classic() +
         theme(legend.position = c(0.9,0.1),legend.justification = c(1,0),legend.title = element_blank())+
         geom_line(data = reg_data,aes(x=nodes,y=pred,group = NULL,colour = NULL))
 
 ##############
 # Q1b) How is this affected by LS overlap?
-# Functions 
+# Functions
 # Define similarity
 jaccard <- function(s1,s2){
   length(intersect(s1,s2))/length(union(s1,s2))
@@ -81,14 +81,14 @@ Overlaps <- function(community){
   T_links <- community$trophic.links
   T_links$taxa.ID.Prey <- 0
   T_links$taxa.ID.Pred <- 0
-  
+
   #get list of multi LS species/groups
   multi_LS <- duplicated(community$nodes$taxa.ID) | duplicated(community$nodes$taxa.ID,fromLast = T)
   multi_LS <- (table(community$nodes$taxa.ID[multi_LS]))
-  
+
   mean_con <- vector(length = length(multi_LS))
   mean_res <- vector(length = length(multi_LS))
-  
+
   #itterate through these species/groups
   for(i in 1:length(multi_LS)){
     #get the node names of each stage
@@ -98,21 +98,21 @@ Overlaps <- function(community){
     Res_links <- vector("list", multi_LS[i])
     #get the links
     for(j in 1:multi_LS[i]){
-      Res_links[[j]] <- T_links[T_links$resource == names[j],] 
-      Con_links[[j]]<- T_links[T_links$consumer == names[j],] 
+      Res_links[[j]] <- T_links[T_links$resource == names[j],]
+      Con_links[[j]]<- T_links[T_links$consumer == names[j],]
     }
     #get indexs for each pair
     pair_indexes <- combn(1:multi_LS[i],2)
-    
+
     #get similarity as consumer and resource
     con_jacc <- vector(l = ncol(pair_indexes))
     res_jacc <- vector(l = ncol(pair_indexes))
-    
+
     for(j in 1:ncol(pair_indexes)){
       one <- Con_links[[pair_indexes[1,j]]]$resource
       two <- Con_links[[pair_indexes[2,j]]]$resource
       con_jacc[j] <- jaccard(one,two)
-      
+
       one <- Res_links[[pair_indexes[1,j]]]$consumer
       two <- Res_links[[pair_indexes[2,j]]]$consumer
       res_jacc[j] <- jaccard(one,two)
@@ -123,9 +123,9 @@ Overlaps <- function(community){
     mean_con[i] <- mean(con_jacc)
     mean_res[i] <- mean(res_jacc)
   }
-  
+
   results <- c(mean(mean_con),mean(mean_res))
-  names(results) <- c("Consumer","Resource") 
+  names(results) <- c("Consumer","Resource")
   return(results)
 }
 #Get LS webs only
@@ -140,8 +140,8 @@ Overlaps_data$Var2 <- gsub(Overlaps_data$Var2 ,pattern = " Lifestage",replacemen
 colnames(Overlaps_data) <- c("overlap.type","web","overlap")
 
 #calculate the ratios
-ratios <- NL_all %>% 
-  filter(LS != 'other') %>% 
+ratios <- NL_all %>%
+  filter(LS != 'other') %>%
   group_by(web) %>%
   do(data.frame(nodes = max(.$nodes)-min(.$nodes), links = max(.$links)-min(.$links)))
 
@@ -149,9 +149,9 @@ ratios$ratios <- ratios$links/ratios$nodes
 ratios$nodes <- NULL ; ratios$links <- NULL
 
 #add to NL data
-Overlaps_data <- NL_all %>% 
-    filter(LS != 'other') %>% 
-    merge(.,Overlaps_data) %>% 
+Overlaps_data <- NL_all %>%
+    filter(LS != 'other') %>%
+    merge(.,Overlaps_data) %>%
     merge(.,ratios)
 
 Overlaps_data %>%
@@ -168,14 +168,14 @@ cor.test(c(1,2,3),c(2,4,9))[5]
 OvS.plot <- ggplot(Overlaps_data,aes(x = overlap, y = ratios, colour = web))+
   geom_point(size = 3)+
   labs(x = "Overlap", y = "ΔL / ΔS")+
-  theme_classic() + 
+  theme_classic() +
   theme(legend.position =  "none",strip.background = element_blank())+
   facet_wrap(~overlap.type,nrow=2, scales = 'free')+
   xlim(0,0.7)+
   scale_color_manual(values = cbPalette)
 
 ggsave(grid.arrange(NvL,OvS.plot,ncol=2),filename = "../Figs/Fig1_SvL.pdf")
-  
+
 ##############
 
 #General Web stats
@@ -187,8 +187,7 @@ prop.LS <- function(community){
          length(table(community$nodes$taxa.ID)))
 }
 
-proportions <- sapply(Overlap_Webs,prop.LS) 
+proportions <- sapply(Overlap_Webs,prop.LS)
 names(proportions) <- (sapply(Overlap_Webs,function(x) x$properties$title))
 
 proportions
-
