@@ -1,5 +1,5 @@
 # ArabianGulf
-Data and analysis of Life History Food webs.
+Data and analysis of Life History Food webs for Clegg, Ali and Beckerman 2018: The Impact of Intraspecific Variation on Food Web Structure
 
 The repository has three folders which are as follows:
 1. Analysis
