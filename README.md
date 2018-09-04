@@ -1,4 +1,7 @@
 # ArabianGulf
+
+[![DOI](https://zenodo.org/badge/88760629.svg)](https://zenodo.org/badge/latestdoi/88760629)
+
 Data and analysis of Life History Food webs for Clegg, Ali and Beckerman 2018: The Impact of Intraspecific Variation on Food Web Structure
 
 The repository has three folders which are as follows:
